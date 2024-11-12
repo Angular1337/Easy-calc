@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy calc</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+      <div class="align">
+        <h1 id="title">Easy Calculator</h1>
+        <input
+          type="number"
+          placeholder="Введите число"
+          id="input1"
+          value=""
+        />
+        <input
+          type="number"
+          placeholder="Введите число"
+          id="input2"
+          value=""
+        />
+        <div class="numbers">
+          <table>
+            <tr>
+              <td><button class="pizda" id="one">1</button></td>
+              <td><button class="pizda" id="two">2</button></td>
+              <td><button class="pizda" id="three">3</button></td>
+            </tr>
+            <tr>
+              <td><button class="pizda" id="four">4</button></td>
+              <td><button class="pizda" id="five">5</button></td>
+              <td><button class="pizda" id="six">6</button></td>
+            </tr>
+            <tr>
+              <td><button class="pizda" id="seven">7</button></td>
+              <td><button class="pizda" id="eight">8</button></td>
+              <td><button class="pizda" id="nine">9</button></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><button class="pizda" id="null">0</button></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="actions">
+          <button class="pizda1" id="plus">+</button>
+          <button class="pizda1" id="minus">-</button>
+          <button class="pizda1" id="multiply">x</button>
+          <button class="pizda1" id="divide">:</button>
+        </div>
+        <button class="ravno" id="submit">Решить</button>
+        <div class="result">
+          <h4 id="resultText">Ответ:</h4>
+          <p id="resultNumber"></p>
+        </div>
+      </div>
+  </body>
+</html>
